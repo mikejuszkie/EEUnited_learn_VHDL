@@ -59,11 +59,25 @@ architecture architecture_name of entity_name is
                                         -- MSb
 
 
-  signal d: 
+  signal d: std_logic;                  -- one-digit scalar of
+                                        -- type std_logic
 
-    
+  signal e: std_logic_vector (3 downto 0) :="0001";
+                                        --declares e as a 4bit
+                                        --vector while setting
+                                        --the vector to 0001  
+
+  signal f: INTEGER range 0 to 255;     -- iniger whose value
+                                        -- is between 0 and 255
+
+-----------------------------------------------------------------
 begin
-      (code)
+  
+
+
+
+
+  
         end architecture_name;
       type;
 VHDL
