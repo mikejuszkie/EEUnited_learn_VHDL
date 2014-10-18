@@ -70,12 +70,34 @@ architecture architecture_name of entity_name is
   signal f: INTEGER range 0 to 255;     -- iniger whose value
                                         -- is between 0 and 255
 
+  
 -----------------------------------------------------------------
 begin
   
 
+  a <= b(5);                            -- Legal (same scalar
+                                        -- type: BIT)
 
+  b(0) <= a;                            -- Leagal (same scalar
+                                        -- type: BIT)
 
+  d <= e(3);                            -- Legal (same scalar
+                                        -- type STD_logic)
+
+  e(0) <= d;                            --Legal (same scalar
+                                        --type STD_logic)
+
+  a <= d;                               -- Illegal (type
+                                        -- mismatch)
+  
+  b <= d;                               -- Illegal (type
+                                        -- mismatch)
+
+  f <= b;                               -- Illegal (type
+                                        -- mismatch)
+
+  f <= e;                               -- Illegal (type
+                                        --mismatch
 
   
         end architecture_name;
