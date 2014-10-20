@@ -1,0 +1,1 @@
+This repo is part of a eduactional blog EEUnited. It folows the read of the book "Circuit Design with VHDL" by Volnei A. Pedroni. Each example is compiled information from chapters of the book. This repo is ment to be used as a quick reference to the information found in the book. 

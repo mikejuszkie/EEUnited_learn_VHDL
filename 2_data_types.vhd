@@ -4,7 +4,7 @@
 --
 -- This file is an example of the data types used inside of
 -- VHDL Code Example based on information from the Third chapter
--- of "Circuit Design with  by Volnei A. Pedroni
+-- of "Circuit Design with VHDL" by Volnei A. Pedroni
 --
 -----------------------------------------------------------------
 
